@@ -1,0 +1,85 @@
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  
+}
+
+#quote-box {
+  max-width: 600px;
+  background-color: rgb(229, 211, 188);
+  padding: 2rem;
+  border-radius: 8px;
+  color: #242424;
+  
+}
+
+#text {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-style: italic;
+  color: inherit;
+  text-align: justify;
+  text-wrap-style: pretty;
+}
+
+#faquote-left {
+  font-size: 1em;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+#faquote-right {
+  font-size: 1em;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+#author {
+  font-size: 1em;
+  color: inherit;
+}
+
+#btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+#tweet-quote {
+  text-decoration: none;
+  color: inherit;
+}
+
+#tweet-icon {
+  font-size: 3em;
+  
+  transition: 1s;
+  
+}
+
+#new-quote {
+  font-size: 1.5em;
+  padding: 8px;
+  margin-bottom: 6px;
+  margin-left: 15px;
+  color:  rgb(229, 211, 188);
+  
+  border: none;
+  border-radius: 8px;
+  transition: 1s;
+}
+
+#new-quote:hover {
+  background-color: rgb(40, 176, 130);
+  cursor: pointer;
+}
+
+#tweet-icon:hover {
+  color: rgb(40, 176, 130);
+}
+
+#copyrights {
+  color: rgb(229, 211, 188);
+}
